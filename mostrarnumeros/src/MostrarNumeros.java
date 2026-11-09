@@ -14,4 +14,13 @@ public class MostrarNumeros {
         sc.close();
 
     }
+    public static double sumar(double a,double b){
+        return a + b;
+    }
+    public static double muliplicar(double a,double b){
+        return a * b;
+    }
+    public static double potencia(double base,double exponente){
+        return Math.pow(base, exponente);
+    }
 }
