@@ -14,6 +14,7 @@ public class MostrarNumeros {
         sc.close();
 
     }
+<<<<<<< HEAD
     public static double restar(double a,double b) {
         return a - b;
     }
@@ -32,5 +33,15 @@ public class MostrarNumeros {
     } else {
             throw new IllegalArgumentException("No se puede calcular la raíz cuadrada de un número negativo");
         }
+=======
+    public static double sumar(double a,double b){
+        return a + b;
+    }
+    public static double muliplicar(double a,double b){
+        return a * b;
+    }
+    public static double potencia(double base,double exponente){
+        return Math.pow(base, exponente);
+>>>>>>> SUMADORES
     }
 }
